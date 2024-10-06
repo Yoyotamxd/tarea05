@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+  /*contenedor Principal*/
+  main{
+    width:900px;
+    height: 800px;
+    margin: 30px auto;
+    padding:20px;
+    border: #3ec25a 1px solid;
+    background-color: azure;
+  }
+  body{
+    background-color:rgb(212, 203, 150);
+  }
+ 
+  /*Cabecera principal*/
+  .cabecera{
+    height: 75px;
+    padding:10px;
+    background-color: rgb(207, 207, 207);
+  }
+  nav{ 
+    height: 40px;
+    }
+  .menu{
+    margin-left: 60%; /*alineacion izquierda al medio del contenedor nav*/  
+    margin-top: 0.5em;
+    }
+  .menu li{
+     display:inline;
+    
+      /*cambiar la presentacion de bloque por defecto a en linea*/   
+  }
+  /*propiedades del enlace (etiqueta a)*/
+  .menu li a{  
+    font-size: 20px;
+    padding:5px ;
+    border-radius: 5px 5px 0px 0px; 
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    }
+    .menu li a:hover{
+        background-color: darkgoldenrod;
+    }
+  .imagen{
+    width:100px;
+    float:left;
+    margin:5px 20px;
+  }
+  article{
+   height: 500px;
+    width: 49%;
+    float:left; 
+  }
+  h1{
+    margin: 10px;
+    height: 25px;
+    width: 430px;
+    background-color: #d13f1a;
+    font-family: "Afacad Flux", sans-serif;
+    color: white;
+    text-align: center;
+  }
+  h2{
+    margin: 10px;
+    height: 25px;
+    width: 430px;
+    background-color:rgb(0, 86, 167);
+    font-family: "Afacad Flux", sans-serif;
+    color: white;
+    text-align: center;
+  }
+  h3{
+    margin: 10px;
+    height: 25px;
+    width: 430px;
+    background-color:rgb(199, 167, 61);
+    font-family: "Afacad Flux", sans-serif;
+    color: white;
+    text-align: center;
+  }
+  h4{
+    margin: 10px;
+    height: 25px;
+    width: 430px;
+    background-color:rgb(102, 85, 150);
+    font-family: "Afacad Flux", sans-serif;
+    color: white;
+    text-align: center;
+  }
+  aside{
+    height: 500px; 
+    margin-left:51%;
+    }
+  footer{
+    margin: 20px;
+      height: 100px;
+      clear:both;
+      height: 75px;
+    padding:10px;
+    background-color: rgb(207, 207, 207);
+    }
+  footer div{
+      float: left;
+    }
+  .redes{
+      float: right;
+      margin-top: 0.5em;
+      margin-right: 0.5em;
+    }
+    #p{
+       font-family:
+    }
+p>span{
+    color: red
+}
+p{
+     font-family: "Afacad Flux", sans-serif;
+}
+  
+    
